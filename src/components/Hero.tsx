@@ -53,24 +53,24 @@ const Hero: React.FC = () => {
               <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl mb-4 flex items-center justify-center">
                 <div className="w-6 h-6 bg-white rounded-md"></div>
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">Fast Delivery</h3>
-              <p className="text-gray-600 dark:text-gray-400">Quick turnaround times without compromising quality</p>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">{t('hero.pros.delivery')}</h3>
+              <p className="text-gray-600 dark:text-gray-400">{t('hero.pros.deliverydesc')}</p>
             </div>
             
             <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200 dark:border-gray-700">
               <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl mb-4 flex items-center justify-center">
                 <div className="w-6 h-6 bg-white rounded-md"></div>
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">Modern Design</h3>
-              <p className="text-gray-600 dark:text-gray-400">Cutting-edge designs that stand out from the crowd</p>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">{t('hero.pros.design')}</h3>
+              <p className="text-gray-600 dark:text-gray-400">{t('hero.pros.designdesc')}</p>
             </div>
             
             <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200 dark:border-gray-700">
               <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-teal-500 rounded-xl mb-4 flex items-center justify-center">
                 <div className="w-6 h-6 bg-white rounded-md"></div>
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">24/7 Support</h3>
-              <p className="text-gray-600 dark:text-gray-400">Round-the-clock support for all your needs</p>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">{t('hero.pros.support')}</h3>
+              <p className="text-gray-600 dark:text-gray-400">{t('hero.pros.supportdesc')}</p>
             </div>
           </div>
         </div>

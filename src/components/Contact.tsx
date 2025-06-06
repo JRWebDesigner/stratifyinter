@@ -161,9 +161,9 @@ const Contact: React.FC = () => {
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">
                     Email
                   </h4>
-                  <p className="text-gray-600 dark:text-gray-300">
-                    hello@stratify.com
-                  </p>
+                  <a href='mailto:stratifydevweb@gmail.com' target='blank' className="text-gray-600 dark:text-gray-300">
+                    stratifydevweb@gmail.com
+                  </a>
                 </div>
               </div>
 
@@ -173,26 +173,11 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">
-                    Phone
+                    {t('contact.links.phone')}
                   </h4>
-                  <p className="text-gray-600 dark:text-gray-300">
-                    +1 (555) 123-4567
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-teal-500 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <MapPin className="w-6 h-6 text-white" />
-                </div>
-                <div>
-                  <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">
-                    Office
-                  </h4>
-                  <p className="text-gray-600 dark:text-gray-300">
-                    123 Innovation Street<br />
-                    Tech District, CA 90210
-                  </p>
+                  <a href='https://wa.link/q8h6v5' className="text-gray-600 dark:text-gray-300">
+                    +591 680-711-68
+                  </a>
                 </div>
               </div>
             </div>
@@ -200,10 +185,10 @@ const Contact: React.FC = () => {
             {/* Response Time */}
             <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl border border-gray-200 dark:border-gray-700">
               <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                Quick Response
+                {t('contact.response.title')}
               </h4>
               <p className="text-gray-600 dark:text-gray-300">
-                We typically respond to all inquiries within 24 hours during business days.
+                {t('contact.response.respond')}
               </p>
             </div>
           </div>

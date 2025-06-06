@@ -88,7 +88,7 @@ const Services: React.FC = () => {
         {/* CTA Section */}
         <div className="text-center mt-16">
           <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-            Ready to discuss your project?
+            {t('services.ready.title')}
           </p>
           <button
             onClick={() => {
@@ -97,7 +97,7 @@ const Services: React.FC = () => {
             }}
             className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
           >
-            Get Started Today
+            {t('services.ready.boton')}
           </button>
         </div>
       </div>

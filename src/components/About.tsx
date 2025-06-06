@@ -1,6 +1,7 @@
 import React from 'react';
 import { Users, Award, Clock, Star } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+import Proyects from './Proyects'
 
 const About: React.FC = () => {
   const { t } = useLanguage();
@@ -8,19 +9,19 @@ const About: React.FC = () => {
   const stats = [
     {
       icon: Award,
-      number: '500+',
+      number: '90+',
       label: t('about.stats.projects'),
       gradient: 'from-blue-500 to-cyan-500',
     },
     {
       icon: Users,
-      number: '300+',
+      number: '120+',
       label: t('about.stats.clients'),
       gradient: 'from-purple-500 to-pink-500',
     },
     {
       icon: Clock,
-      number: '8+',
+      number: '2+',
       label: t('about.stats.experience'),
       gradient: 'from-green-500 to-teal-500',
     },
@@ -125,6 +126,9 @@ const About: React.FC = () => {
               </div>
             ))}
           </div>
+        </div>
+        <div className='mt-20'>
+          <Proyects />
         </div>
       </div>
     </section>

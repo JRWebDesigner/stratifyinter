@@ -21,7 +21,12 @@ const translations = {
     'hero.subtitle': 'Professional web development solutions that drive results. We create stunning, high-performance websites that captivate your audience and grow your business.',
     'hero.cta.primary': 'Start Your Project',
     'hero.cta.secondary': 'View Our Work',
-    
+    'hero.pros.delivery':'Fast Delivery',
+    'hero.pros.deliverypros':'Quick turnaround times without compromising quality',
+    'hero.pros.design':'Modern Design',
+    'hero.pros.designdesc':'Cutting-edge designs that stand out from the crowd',
+    'hero.pros.support':'24/7 Support',
+    'hero.pros.supportdesc':'Round-the-clock support for all your needs',
     // Services
     'services.title': 'Our Services',
     'services.subtitle': 'Comprehensive web development solutions tailored to your needs',
@@ -37,7 +42,8 @@ const translations = {
     'services.maintenance.desc': 'Ongoing support, updates, and maintenance to keep your website running smoothly.',
     'services.consulting.title': 'Digital Strategy',
     'services.consulting.desc': 'Strategic consulting to align your digital presence with your business objectives.',
-    
+    'services.ready.title':'¿Ready to discuss your project?',
+    'services.ready.boton':'Get Started Today',
     // About
     'about.title': 'About Stratify',
     'about.subtitle': 'Your trusted partner in digital transformation',
@@ -62,7 +68,9 @@ const translations = {
     'contact.form.submit': 'Send Message',
     'contact.info.title': 'Contact Information',
     'contact.info.desc': 'Get in touch with us through any of these channels.',
-    
+    'contact.links.phone': 'Phone',
+    'contact.response.title': 'Quick Response',
+    'contact.response.respond':'We typically respond to all inquiries within 24 hours during business days.',
     // Footer
     'footer.desc': 'Professional web development solutions that drive results and grow your business.',
     'footer.services.title': 'Services',
@@ -88,7 +96,12 @@ const translations = {
     'hero.subtitle': 'Soluciones profesionales de desarrollo web que generan resultados. Creamos sitios web impresionantes y de alto rendimiento que cautivan a tu audiencia y hacen crecer tu negocio.',
     'hero.cta.primary': 'Iniciar Proyecto',
     'hero.cta.secondary': 'Ver Nuestro Trabajo',
-    
+    'hero.pros.delivery':'Entrega rápida',
+    'hero.pros.deliverypros':'Plazos de entrega rápidos sin comprometer la calidad',
+    'hero.pros.design':'Diseño moderno',
+    'hero.pros.designdesc':'Diseños de vanguardia que destacan entre la multitud',
+    'hero.pros.support':'Soporte 24/7',
+    'hero.pros.supportdesc':'Soporte las 24 horas para todas tus necesidades',
     // Services
     'services.title': 'Nuestros Servicios',
     'services.subtitle': 'Soluciones integrales de desarrollo web adaptadas a tus necesidades',
@@ -104,7 +117,8 @@ const translations = {
     'services.maintenance.desc': 'Soporte continuo, actualizaciones y mantenimiento para mantener tu sitio web funcionando sin problemas.',
     'services.consulting.title': 'Estrategia Digital',
     'services.consulting.desc': 'Consultoría estratégica para alinear tu presencia digital con tus objetivos de negocio.',
-    
+    'services.ready.title':'¿Listo para hablar sobre tu proyecto?',
+    'services.ready.boton':'¡Empieza hoy!',
     // About
     'about.title': 'Acerca de Stratify',
     'about.subtitle': 'Tu socio de confianza en transformación digital',
@@ -129,7 +143,9 @@ const translations = {
     'contact.form.submit': 'Enviar Mensaje',
     'contact.info.title': 'Información de Contacto',
     'contact.info.desc': 'Ponte en contacto con nosotros a través de cualquiera de estos canales.',
-    
+    'contact.links.phone': 'Celular/Telefono',
+    'contact.response.title': 'Respuesta rápida',
+    'contact.response.respond':'Normalmente respondemos a todas las consultas en un plazo de 24 horas durante los días laborables.',
     // Footer
     'footer.desc': 'Soluciones profesionales de desarrollo web que generan resultados y hacen crecer tu negocio.',
     'footer.services.title': 'Servicios',
