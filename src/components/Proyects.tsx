@@ -3,7 +3,7 @@ export default function Proyects(){
   const proyects=[
     {
       id: 'ecommerce',
-      title: 'E-commerce Platform',
+      title: 'E-commerce Platforms',
       description: 'A fully responsive e-commerce platform with cart functionality, product filtering, and user authentication.',
       image: 'https://images.pexels.com/photos/6956/person-woman-apple-laptop.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       tags: ['React', 'Redux', 'Tailwind CSS', 'Firebase'],
