@@ -1,41 +1,37 @@
-import { ExternalLink, Github, ChevronRight } from 'lucide-react';
+import { ExternalLink, ChevronRight } from 'lucide-react';
 export default function Proyects(){
   const proyects=[
     {
       id: 'ecommerce',
-      title: 'E-commerce Platforms',
-      description: 'A fully responsive e-commerce platform with cart functionality, product filtering, and user authentication.',
-      image: 'https://images.pexels.com/photos/6956/person-woman-apple-laptop.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      tags: ['React', 'Redux', 'Tailwind CSS', 'Firebase'],
-      demoUrl: '#',
-      githubUrl: '#',
+      title: 'E-commerce Desechables Bacan',
+      description: 'Una plataforma de comercio electrónico totalmente interactiva con funcionalidad de carrito y filtrado de productos.',
+      image: '/bacan.png',
+      tags: [''],
+      demoUrl: 'https://desechables-bacan.com/',
     },
     {
       id: 'dashboard',
-      title: 'Analytics Dashboard',
-      description: 'Interactive dashboard with real-time data visualization, filtering capabilities, and responsive design.',
-      image: 'https://images.pexels.com/photos/7654049/pexels-photo-7654049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      tags: ['React', 'D3.js', 'TypeScript', 'Styled Components'],
-      demoUrl: '#',
-      githubUrl: '#',
+      title: 'AJS eventos',
+      description: 'Página web profesional para una empresa especializada en la organización de eventos sociales y corporativos. El sitio está enfocado en captar clientes potenciales a través de una estructura clara, diseño atractivo y contenido optimizado para SEO.',
+      image: '/ajs.png',
+      tags: [''],
+      demoUrl: 'https://ajseventos.com/',
     },
     {
       id: 'social',
-      title: 'Social Media App',
-      description: 'A social platform with real-time messaging, profile customization, and content sharing features.',
-      image: 'https://images.pexels.com/photos/3194518/pexels-photo-3194518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      tags: ['React', 'Socket.io', 'Node.js', 'MongoDB'],
+      title: 'Sunrise Residence',
+      description: 'Página web multilingüe (español, inglés, italiano y francés) para promocionar un departamento turístico en Albà, Italia. El sitio incluye galería de fotos, detalles del alojamiento, mapa interactivo y formulario de contacto.',
+      image: '/sunrise.png',
+      tags: [''],
       demoUrl: '#',
-      githubUrl: '#',
     },
     {
       id: 'travel',
-      title: 'Travel Planner',
-      description: 'An application for planning trips with interactive maps, itinerary building, and expense tracking.',
-      image: 'https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      tags: ['Vue.js', 'Vuex', 'Leaflet', 'Firebase'],
-      demoUrl: '#',
-      githubUrl: '#',
+      title: 'Innovations biosupply ',
+      description: 'Sitio web para una empresa importadora de productos de laboratorio, con catálogo dinámico y diseño profesional.',
+      image: '/biosupply.png',
+      tags: [''],
+      demoUrl: 'https://www.n-innovationsbiosupply.com/',
     },
   ]
   return(
@@ -64,16 +60,7 @@ export default function Proyects(){
                     <ExternalLink className="h-5 w-5" />
                   </a>
                 )}
-                {project.githubUrl && (
-                  <a
-                    href={project.githubUrl}
-                    className="bg-gray-800 hover:bg-gray-900 text-white p-2 rounded-full transition-colors"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Github className="h-5 w-5" />
-                  </a>
-                )}
+                
               </div>
             </div>
           </div>
